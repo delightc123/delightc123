@@ -10,7 +10,7 @@ from pathlib import Path
 from PIL import Image
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-SOURCE_IMG = BASE_DIR / "assets" / "source" / "me_cropped.png"
+SOURCE_IMG = BASE_DIR / "assets" / "source" / "portrait_cropped.jpg"
 OUT_FILE = BASE_DIR / "assets" / "portrait-rollup.svg"
 
 def make_rollup():

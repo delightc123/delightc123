@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 160" width="100%" height="100%">
+  <!-- Container Box -->
+  <rect x="0" y="0" width="880" height="160" rx="10" fill="#090d16" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- Top Header Bar -->
+  <rect x="0" y="0" width="880" height="32" rx="10" fill="#0f172a"/>
+  <rect x="0" y="22" width="880" height="10" fill="#0f172a"/>
+  <line x1="0" y1="32" x2="880" y2="32" stroke="#1e293b" stroke-width="1"/>
+
+  <circle cx="18" cy="16" r="4.5" fill="#ef4444"/>
+  <circle cx="32" cy="16" r="4.5" fill="#f59e0b"/>
+  <circle cx="46" cy="16" r="4.5" fill="#10b981"/>
+  <text x="64" y="20" font-family="monospace" font-size="11" font-weight="600" fill="#64748b">delight@auscera: ~ / telemetry / achievements.svg</text>
+  
+  <text x="860" y="20" text-anchor="end" font-family="monospace" font-size="10" font-weight="700" fill="#f59e0b">[ GAMIFIED TROPHY MATRIX ]</text>
+
+  <!-- Cards -->
+  
+    <!-- Trophy Card: Autonomous Architect -->
+    <g transform="translate(19.0, 48)">
+      <rect x="0" y="0" width="132" height="96" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2"/>
+      
+      <!-- Rank Pill Badge -->
+      <g transform="translate(90, 8)">
+        <rect x="0" y="0" width="34" height="16" rx="4" fill="rgba(245, 158, 11, 0.15)" stroke="#f59e0b" stroke-width="1"/>
+        <text x="17" y="11.5" text-anchor="middle" font-family="monospace" font-size="10" font-weight="800" fill="#f59e0b">SSS</text>
+      </g>
+
+      <!-- Icon with Pulse Glow -->
+      <g transform="translate(14, 18)">
+        <text x="0" y="18" font-size="22">🏆</text>
+      </g>
+
+      <!-- Trophy Title -->
+      <text x="10" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#f8fafc">Autonomous Architect</text>
+      
+      <!-- Trophy Desc -->
+      <text x="10" y="74" font-family="monospace" font-size="9" font-weight="500" fill="#94a3b8">Agent OS / BWA</text>
+
+      <!-- Status Indicator Line -->
+      <line x1="10" y1="84" x2="122" y2="84" stroke="#f59e0b" stroke-width="1.8" stroke-linecap="round" opacity="0.8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" begin="0.0s"/>
+      </line>
+    </g>
+    <!-- Trophy Card: Agentic Engineer -->
+    <g transform="translate(161.0, 48)">
+      <rect x="0" y="0" width="132" height="96" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2"/>
+      
+      <!-- Rank Pill Badge -->
+      <g transform="translate(90, 8)">
+        <rect x="0" y="0" width="34" height="16" rx="4" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="1"/>
+        <text x="17" y="11.5" text-anchor="middle" font-family="monospace" font-size="10" font-weight="800" fill="#38bdf8">SS</text>
+      </g>
+
+      <!-- Icon with Pulse Glow -->
+      <g transform="translate(14, 18)">
+        <text x="0" y="18" font-size="22">⚡</text>
+      </g>
+
+      <!-- Trophy Title -->
+      <text x="10" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#f8fafc">Agentic Engineer</text>
+      
+      <!-- Trophy Desc -->
+      <text x="10" y="74" font-family="monospace" font-size="9" font-weight="500" fill="#94a3b8">Multi-Agent Loops</text>
+
+      <!-- Status Indicator Line -->
+      <line x1="10" y1="84" x2="122" y2="84" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" opacity="0.8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" begin="0.3s"/>
+      </line>
+    </g>
+    <!-- Trophy Card: Auscera Founder -->
+    <g transform="translate(303.0, 48)">
+      <rect x="0" y="0" width="132" height="96" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2"/>
+      
+      <!-- Rank Pill Badge -->
+      <g transform="translate(90, 8)">
+        <rect x="0" y="0" width="34" height="16" rx="4" fill="rgba(16, 185, 129, 0.15)" stroke="#10b981" stroke-width="1"/>
+        <text x="17" y="11.5" text-anchor="middle" font-family="monospace" font-size="10" font-weight="800" fill="#10b981">S</text>
+      </g>
+
+      <!-- Icon with Pulse Glow -->
+      <g transform="translate(14, 18)">
+        <text x="0" y="18" font-size="22">🚀</text>
+      </g>
+
+      <!-- Trophy Title -->
+      <text x="10" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#f8fafc">Auscera Founder</text>
+      
+      <!-- Trophy Desc -->
+      <text x="10" y="74" font-family="monospace" font-size="9" font-weight="500" fill="#94a3b8">Systemic Leadership</text>
+
+      <!-- Status Indicator Line -->
+      <line x1="10" y1="84" x2="122" y2="84" stroke="#10b981" stroke-width="1.8" stroke-linecap="round" opacity="0.8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" begin="0.6s"/>
+      </line>
+    </g>
+    <!-- Trophy Card: Resilient Systems -->
+    <g transform="translate(445.0, 48)">
+      <rect x="0" y="0" width="132" height="96" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2"/>
+      
+      <!-- Rank Pill Badge -->
+      <g transform="translate(90, 8)">
+        <rect x="0" y="0" width="34" height="16" rx="4" fill="rgba(168, 85, 247, 0.15)" stroke="#a855f7" stroke-width="1"/>
+        <text x="17" y="11.5" text-anchor="middle" font-family="monospace" font-size="10" font-weight="800" fill="#a855f7">S</text>
+      </g>
+
+      <!-- Icon with Pulse Glow -->
+      <g transform="translate(14, 18)">
+        <text x="0" y="18" font-size="22">🛡️</text>
+      </g>
+
+      <!-- Trophy Title -->
+      <text x="10" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#f8fafc">Resilient Systems</text>
+      
+      <!-- Trophy Desc -->
+      <text x="10" y="74" font-family="monospace" font-size="9" font-weight="500" fill="#94a3b8">Zero-Crash Infra</text>
+
+      <!-- Status Indicator Line -->
+      <line x1="10" y1="84" x2="122" y2="84" stroke="#a855f7" stroke-width="1.8" stroke-linecap="round" opacity="0.8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" begin="0.8999999999999999s"/>
+      </line>
+    </g>
+    <!-- Trophy Card: Full-Stack Native -->
+    <g transform="translate(587.0, 48)">
+      <rect x="0" y="0" width="132" height="96" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2"/>
+      
+      <!-- Rank Pill Badge -->
+      <g transform="translate(90, 8)">
+        <rect x="0" y="0" width="34" height="16" rx="4" fill="rgba(236, 72, 153, 0.15)" stroke="#ec4899" stroke-width="1"/>
+        <text x="17" y="11.5" text-anchor="middle" font-family="monospace" font-size="10" font-weight="800" fill="#ec4899">A</text>
+      </g>
+
+      <!-- Icon with Pulse Glow -->
+      <g transform="translate(14, 18)">
+        <text x="0" y="18" font-size="22">🌐</text>
+      </g>
+
+      <!-- Trophy Title -->
+      <text x="10" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#f8fafc">Full-Stack Native</text>
+      
+      <!-- Trophy Desc -->
+      <text x="10" y="74" font-family="monospace" font-size="9" font-weight="500" fill="#94a3b8">Next • Tauri • Expo</text>
+
+      <!-- Status Indicator Line -->
+      <line x1="10" y1="84" x2="122" y2="84" stroke="#ec4899" stroke-width="1.8" stroke-linecap="round" opacity="0.8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+      </line>
+    </g>
+    <!-- Trophy Card: Polyglot Master -->
+    <g transform="translate(729.0, 48)">
+      <rect x="0" y="0" width="132" height="96" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2"/>
+      
+      <!-- Rank Pill Badge -->
+      <g transform="translate(90, 8)">
+        <rect x="0" y="0" width="34" height="16" rx="4" fill="rgba(6, 182, 212, 0.15)" stroke="#06b6d4" stroke-width="1"/>
+        <text x="17" y="11.5" text-anchor="middle" font-family="monospace" font-size="10" font-weight="800" fill="#06b6d4">A</text>
+      </g>
+
+      <!-- Icon with Pulse Glow -->
+      <g transform="translate(14, 18)">
+        <text x="0" y="18" font-size="22">💎</text>
+      </g>
+
+      <!-- Trophy Title -->
+      <text x="10" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#f8fafc">Polyglot Master</text>
+      
+      <!-- Trophy Desc -->
+      <text x="10" y="74" font-family="monospace" font-size="9" font-weight="500" fill="#94a3b8">TS • Py • Rust • Go</text>
+
+      <!-- Status Indicator Line -->
+      <line x1="10" y1="84" x2="122" y2="84" stroke="#06b6d4" stroke-width="1.8" stroke-linecap="round" opacity="0.8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" begin="1.5s"/>
+      </line>
+    </g>
+</svg>

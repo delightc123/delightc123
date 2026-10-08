@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-generate_radar.py - Generates high-tech animated hexagonal radar chart SVG
-Visualizes Delight's engineering competency dimensions.
+generate_radar.py - Generates valid, high-tech animated hexagonal radar chart SVG
+Visualizes Delight's engineering competency dimensions without any XML syntax errors.
 """
 
 import math
+import html
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,7 +24,7 @@ SKILLS = [
 def make_radar():
     w, h = 640, 420
     cx, cy = 320, 205
-    max_r = 135
+    max_r = 130
     n = len(SKILLS)
 
     # Concentric rings
@@ -53,6 +54,7 @@ def make_radar():
     label_elements = []
 
     for i, (name, val, color) in enumerate(SKILLS):
+        escaped_name = html.escape(name)
         angle = -math.pi / 2 + i * (2 * math.pi / n)
         r = max_r * (val / 100.0)
         x = cx + r * math.cos(angle)
@@ -62,16 +64,16 @@ def make_radar():
         # Vertex circle
         node_circles.append(f'''
         <g>
-          <circle cx="{x:.1f}" cy="{y:.1f}" r="4" fill="{color}"/>
-          <circle cx="{x:.1f}" cy="{y:.1f}" r="8" fill="none" stroke="{color}" stroke-width="1.2" opacity="0.6">
-            <animate attributeName="r" values="5;10;5" dur="2.4s" repeatCount="indefinite" begin="{i * 0.3}s"/>
-            <animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.4s" repeatCount="indefinite" begin="{i * 0.3}s"/>
+          <circle cx="{x:.1f}" cy="{y:.1f}" r="4.5" fill="{color}"/>
+          <circle cx="{x:.1f}" cy="{y:.1f}" r="9" fill="none" stroke="{color}" stroke-width="1.2" opacity="0.6">
+            <animate attributeName="r" values="5;11;5" dur="2.4s" repeatCount="indefinite" begin="{i * 0.3:.1f}s"/>
+            <animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.4s" repeatCount="indefinite" begin="{i * 0.3:.1f}s"/>
           </circle>
         </g>
         ''')
 
         # Outer label placement
-        label_r = max_r + 28
+        label_r = max_r + 26
         lx = cx + label_r * math.cos(angle)
         ly = cy + label_r * math.sin(angle)
         
@@ -91,7 +93,7 @@ def make_radar():
 
         label_elements.append(f'''
         <g>
-          <text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" font-family="monospace" font-size="11" font-weight="700" fill="{color}">{name}</text>
+          <text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" font-family="monospace" font-size="11" font-weight="700" fill="{color}">{escaped_name}</text>
           <text x="{lx:.1f}" y="{ly + 13:.1f}" text-anchor="{anchor}" font-family="monospace" font-size="10" font-weight="600" fill="#94a3b8">[{val}% MASTERY]</text>
         </g>
         ''')
@@ -112,20 +114,11 @@ def make_radar():
 
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="100%" height="100%">
   <defs>
-    <radialGradient id="radarGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
-      <stop offset="60%" stop-color="#10b981" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
-    </radialGradient>
     <linearGradient id="polyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
       <stop offset="50%" stop-color="#818cf8" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#10b981" stop-opacity="0.45"/>
     </linearGradient>
-    <filter id="bloom" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
   </defs>
 
   <!-- Container Box -->
@@ -157,7 +150,7 @@ def make_radar():
   </g>
 
   <!-- Data Filled Hexagon -->
-  <polygon points="{data_polygon}" fill="url(#polyGrad)" stroke="#38bdf8" stroke-width="2" filter="url(#bloom)">
+  <polygon points="{data_polygon}" fill="url(#polyGrad)" stroke="#38bdf8" stroke-width="2.2">
     <animate attributeName="stroke-opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
   </polygon>
 

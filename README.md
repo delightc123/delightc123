@@ -1,61 +1,71 @@
 <div align="center">
 
-  <!-- ==================== HERO: EMMI ACASCI TERMINAL BANNER ==================== -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.v1.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.v1.svg">
-    <img src="assets/banner-dark.v1.svg" alt="Delight Chukwubuihem - ACASCI Cyberpunk Terminal Banner" width="100%">
-  </picture>
+  <!-- ==================== HERO: GARGI-STYLE 3D ANIMATED ROLL-UP BANNER ==================== -->
+  <img src="assets/header-gargi.svg" alt="Delight Chukwubuihem - 3D Animated Roll-Up Header" width="100%">
 
   <!-- Dynamic Typing Subheader -->
   <p align="center">
     <a href="https://github.com/delightc123">
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Chief+Systems+Architect+%26+Founder+%40Auscera;Architecting+Autonomous+Agent+Operating+Systems;Full-Stack+Engineering+%E2%80%A2+WebGL%2F3D+%E2%80%A2+Distributed+Systems;Building+Systems+That+Operate+Themselves" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1000&color=4ADE80&center=true&vCenter=true&width=720&lines=Chief+Systems+Architect+%26+Founder+%40Auscera;Architecting+Autonomous+Agent+Operating+Systems;Full-Stack+Engineering+%E2%80%A2+WebGL%2F3D+%E2%80%A2+Distributed+Systems;Building+Systems+That+Operate+Themselves" alt="Typing SVG" />
     </a>
   </p>
 
-  <!-- Status Badges -->
+  <!-- Interactive Social & Status Badges -->
   <p align="center">
-    <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-10b981?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status Operational" />
-    <img src="https://img.shields.io/badge/ARCH-AGENTIC_OS_v2.4-38bdf8?style=for-the-badge&logo=terminal&logoColor=white" alt="Agentic OS" />
-    <img src="https://img.shields.io/badge/FOCUS-HIGH_SCALE_SYSTEMS-818cf8?style=for-the-badge&logo=speedtest&logoColor=white" alt="High Scale Systems" />
-    <img src="https://img.shields.io/badge/LOCATION-GLOBAL%20%2F%20REMOTE-f59e0b?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+    <a href="https://www.linkedin.com/in/delight-chukwubuihem-b4293b30a/" target="_blank">
+      <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://x.com/delightchukwu_" target="_blank">
+      <img src="https://img.shields.io/badge/X%20%2F%20TWITTER-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter / X" />
+    </a>
+    <a href="https://instagram.com/delightchukwu_" target="_blank">
+      <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <a href="https://www.youtube.com/@delight_chukwu" target="_blank">
+      <img src="https://img.shields.io/badge/YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+    </a>
+    <a href="mailto:delightene8@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://delightchukwubuihem.com" target="_blank">
+      <img src="https://img.shields.io/badge/PORTFOLIO-10B981?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
+    </a>
   </p>
 
 </div>
 
 ---
 
-### ⚡ `whoami --verbose`
+### ⚡ `~/ whoami`
 
 <table>
   <tr>
-    <td width="290" align="center" valign="middle">
-      <img src="assets/portrait-rollup.svg" width="240" alt="Delight Chukwubuihem Animated Roll-Up Portrait" />
+    <td width="230" align="center" valign="middle">
+      <img src="assets/portrait-matrix.svg" width="210" alt="Delight Holographic Terminal Avatar" />
       <br/>
-      <sub><b>DELIGHT CHUKWUBUIHEM</b><br/><i>Founder &amp; Chief Systems Architect</i></sub>
+      <sub><b>TARGET_ID: DELIGHT.C</b><br/><i>Founder &amp; Chief Systems Architect</i></sub>
     </td>
     <td valign="top">
-      <h4><code>System.Profile.Identity</code></h4>
-      <p>
-        I am a <b>Founder</b>, <b>Chief Systems Architect</b>, and <b>Agentic Engineer</b> specialized in designing autonomous software architectures, resilient cloud infrastructures, and high-performance native &amp; web applications.
-      </p>
-      <ul>
-        <li>🧬 <b>Founder &amp; CEO</b> at <b>Auscera Tech Ltd</b> — Pioneering autonomous agent engines, distributed workflow fabrics, and intelligent systems.</li>
-        <li>🤖 <b>Autonomous Agent Operating Systems</b> — Creator of <b>Agent OS</b> &amp; <b>BWA</b> (Building With AI) framework: declarative memory graphs, self-healing tool routing, and reactive multi-agent execution loops.</li>
-        <li>⚡ <b>Production Systems</b> — High-throughput event streams, low-latency native micro-utilities (Tauri/Rust), quantitative trading engines, and full-stack cloud ecosystems.</li>
-        <li>🌐 <b>Engineering Philosophy</b>: <i>"Don't just write code — architect autonomous systems that operate, heal, and scale themselves."</i></li>
-      </ul>
-      <p>
-        <b>Core Disciplines</b>: <code>Autonomous Agents</code> • <code>Distributed Systems</code> • <code>Full-Stack Web &amp; Mobile</code> • <code>WebGL / 3D Graphics</code> • <code>FinTech</code>
-      </p>
-    </td>
+
+```bash
+$ cat about.txt
+Hi, I'm Delight Chukwubuihem. I architect autonomous agent systems and distributed backends that operate themselves.
+
+• Founder & CEO at Auscera Tech Ltd — Pioneering autonomous agent engines, distributed workflow fabrics, and intelligent systems.
+• Creator of Agent OS & BWA Framework — Declarative memory graphs, self-healing tool routing, and reactive multi-agent execution loops.
+• High-Scale Systems — Low-latency native utilities (Tauri/Rust), quantitative trading engines, and full-stack cloud ecosystems.
+• Philosophy: "Don't just write code — architect autonomous systems that operate, heal, and scale themselves."
+
+Core Focus: Autonomous Agents • Distributed Systems • Full-Stack Web & Mobile • WebGL / 3D Graphics • FinTech
+```
+
+   </td>
   </tr>
 </table>
 
 ---
 
-### 🛠️ `toolbox --inspect-all`
+### 🛠️ `~/ toolbox`
 
 <div align="center">
 
@@ -125,11 +135,11 @@
 
   <!-- Streak Stats -->
   <a href="https://github.com/delightc123">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=delightc123&theme=tokyonight&background=090d16&border=1e293b&stroke=38bdf8&ring=10b981&fire=f59e0b&currStreakNum=f8fafc&sideNums=94a3b8&currStreakLabel=38bdf8&sideLabels=64748b&dates=64748b" alt="Delight GitHub Streak Stats" width="49%" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=delightc123&theme=tokyonight&background=090d16&border=1e293b&stroke=4ade80&ring=38bdf8&fire=f59e0b&currStreakNum=f8fafc&sideNums=94a3b8&currStreakLabel=4ade80&sideLabels=64748b&dates=64748b" alt="Delight GitHub Streak Stats" width="49%" />
   </a>
   <!-- Core Stats -->
   <a href="https://github.com/delightc123">
-    <img src="https://github-readme-stats.vercel.app/api?username=delightc123&show_icons=true&theme=tokyonight&bg_color=090d16&border_color=1e293b&title_color=38bdf8&text_color=94a3b8&icon_color=10b981&rank_icon=github" alt="Delight GitHub Stats" width="49%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=delightc123&show_icons=true&theme=tokyonight&bg_color=090d16&border_color=1e293b&title_color=4ade80&text_color=94a3b8&icon_color=38bdf8&rank_icon=github" alt="Delight GitHub Stats" width="49%" />
   </a>
 
 </div>
@@ -140,7 +150,7 @@
 
   <!-- Top Languages -->
   <a href="https://github.com/delightc123">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=delightc123&layout=compact&theme=tokyonight&bg_color=090d16&border_color=1e293b&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" width="60%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=delightc123&layout=compact&theme=tokyonight&bg_color=090d16&border_color=1e293b&title_color=4ade80&text_color=94a3b8" alt="Top Languages" width="60%" />
   </a>
 
 </div>
@@ -174,9 +184,7 @@
 ### 🏆 `trophies --gamified-achievements`
 
 <div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=delightc123&theme=darkhub&no-frame=false&no-bg=false&margin_w=8&margin_h=8" alt="Delight GitHub Trophies" width="100%" />
-  </a>
+  <img src="assets/trophies.svg" width="100%" alt="Delight GitHub Achievement Trophies Matrix" />
 </div>
 
 ---
@@ -185,17 +193,23 @@
 
 <div align="center">
 
-  <a href="https://github.com/delightc123">
-    <img src="https://img.shields.io/badge/GITHUB-delightc123-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://www.linkedin.com/in/delight-chukwubuihem-b4293b30a/" target="_blank">
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:contact@auscera.com">
-    <img src="https://img.shields.io/badge/EMAIL-DIRECT_COMM-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="https://x.com/delightchukwu_" target="_blank">
+    <img src="https://img.shields.io/badge/X%20%2F%20TWITTER-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter / X" />
   </a>
-  <a href="https://linkedin.com/in/delight-chukwubuihem">
-    <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://instagram.com/delightchukwu_" target="_blank">
+    <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="https://twitter.com/delightc123">
-    <img src="https://img.shields.io/badge/TWITTER%20%2F%20X-FOLLOW-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
+  <a href="https://www.youtube.com/@delight_chukwu" target="_blank">
+    <img src="https://img.shields.io/badge/YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  <a href="mailto:delightene8@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://delightchukwubuihem.com" target="_blank">
+    <img src="https://img.shields.io/badge/PORTFOLIO-10B981?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
   </a>
 
   <br/><br/>
