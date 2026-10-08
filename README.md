@@ -147,6 +147,18 @@
 
 ---
 
+### 🧊 `github.activity --3d-isometric-calendar`
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg">
+    <img src="profile-3d-contrib/profile-night-view.svg" alt="Delight 3D Contribution Calendar" width="100%">
+  </picture>
+</div>
+
+---
+
 ### 🎮 `github.contributions --snake`
 
 <div align="center">
