@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile Preview - Delight Chukwubuihem (@delightc123)</title>
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #0f172a;
+      --border: #1e293b;
+      --text: #f8fafc;
+      --text-dim: #94a3b8;
+      --cyan: #38bdf8;
+      --emerald: #10b981;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      padding: 32px 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 920px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header h1 {
+      font-size: 26px;
+      color: var(--cyan);
+      margin-bottom: 8px;
+      font-family: monospace;
+    }
+
+    header p {
+      color: var(--text-dim);
+      font-size: 14px;
+    }
+
+    .section-title {
+      font-size: 18px;
+      color: var(--emerald);
+      font-family: monospace;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .preview-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .preview-card.light-mode {
+      background: #f8fafc;
+      color: #0f172a;
+      border-color: #cbd5e1;
+    }
+
+    .preview-card.light-mode .section-title {
+      color: #0284c7;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    img, object, svg {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-family: monospace;
+      font-weight: bold;
+    }
+
+    .badge-cyan { background: rgba(56, 189, 248, 0.15); color: var(--cyan); border: 1px solid var(--cyan); }
+    .badge-green { background: rgba(16, 185, 129, 0.15); color: var(--emerald); border: 1px solid var(--emerald); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>⚡ DELIGHT CHUKWUBUIHEM // GITHUB PROFILE SUITE</h1>
+      <p>Local Interactive Testing &amp; Preview Environment for <code>delightc123/delightc123</code></p>
+    </header>
+
+    <!-- SECTION 1: MODE B - EMMI ACASCI TERMINAL HERO (DARK) -->
+    <div class="preview-card">
+      <div class="section-title">
+        <span class="badge badge-cyan">MODE B: PRIMARY</span>
+        <span>ACASCI Holographic Terminal Hero (Dark Theme)</span>
+      </div>
+      <img src="assets/banner-dark.v1.svg" alt="Terminal Hero Dark">
+    </div>
+
+    <!-- SECTION 2: MODE B - LIGHT THEME -->
+    <div class="preview-card light-mode">
+      <div class="section-title">
+        <span class="badge badge-cyan">MODE B: ADAPTIVE</span>
+        <span>ACASCI Holographic Terminal Hero (Light Theme)</span>
+      </div>
+      <img src="assets/banner-light.v1.svg" alt="Terminal Hero Light">
+    </div>
+
+    <!-- SECTION 3: MODE A - GARGI ROLL-UP & RADAR CHART -->
+    <div class="grid-2">
+      <div class="preview-card" style="display: flex; flex-direction: column; align-items: center;">
+        <div class="section-title" style="width: 100%;">
+          <span class="badge badge-green">MODE A</span>
+          <span>Gargi Animated Roll-Up Portrait</span>
+        </div>
+        <p style="color: var(--text-dim); font-size: 13px; margin-bottom: 16px; text-align: center;">
+          Animated via SVG <code>&lt;clipPath&gt;</code> unroll from bottom to top with neon orbiting aura.
+        </p>
+        <img src="assets/portrait-rollup.svg" width="280" alt="Roll-up Portrait">
+      </div>
+
+      <div class="preview-card">
+        <div class="section-title">
+          <span class="badge badge-green">MODE A</span>
+          <span>Hexagonal Domain Competency Radar</span>
+        </div>
+        <p style="color: var(--text-dim); font-size: 13px; margin-bottom: 16px;">
+          Dynamic radar sweep, blooming polygons, and metric indicators.
+        </p>
+        <img src="assets/radar-chart.svg" alt="Skill Radar Chart">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
