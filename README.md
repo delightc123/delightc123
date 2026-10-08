@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- ==================== HERO: ISOLATED 3D ANIMATED ROLL-UP PORTRAIT ==================== -->
-  <img src="assets/header-portrait.svg" alt="Delight Chukwubuihem - 3D Animated Roll-Up Portrait" width="280">
+  <!-- ==================== HERO: CYBERNETIC SCANNER PORTRAIT ==================== -->
+  <img src="assets/header-portrait.svg" alt="Delight Chukwubuihem - Cybernetic Scanner" width="340">
 
   <!-- Dynamic Typing Subheader -->
   <p align="center">
@@ -36,32 +36,16 @@
 
 ---
 
-### ⚡ `~/ whoami`
+### ⚡ `whoami`
 
-<table>
-  <tr>
-    <td width="230" align="center" valign="middle">
-      <img src="assets/portrait-matrix.svg" width="210" alt="Delight Holographic Terminal Avatar" />
-      <br/>
-      <sub><b>TARGET_ID: DELIGHT.C</b><br/><i>Founder &amp; Chief Systems Architect</i></sub>
-    </td>
-    <td valign="top">
+I am a **Founder**, **Chief Systems Architect**, and **Agentic Engineer** dedicated to engineering autonomous software systems, resilient distributed backends, and low-latency native interfaces.
 
-```bash
-$ cat about.txt
-Hi, I'm Delight Chukwubuihem. I architect autonomous agent systems and distributed backends that operate themselves.
+- 🧬 **Founder & CEO at Auscera Tech Ltd** — Leading research and architecture for autonomous agent engines, distributed workflow fabrics, and intelligent systems.
+- 🤖 **Architect of Agent OS & BWA Framework** — Designing declarative memory graphs, self-healing tool routing, and reactive multi-agent execution loops that empower software to operate autonomously.
+- ⚡ **High-Scale Systems & Performance** — Building low-latency native desktop utilities (Tauri / Rust), quantitative trading telemetry systems, and resilient cloud architectures.
+- 🌐 **Engineering Philosophy**: *"Don't just write code — architect autonomous systems that operate, heal, and scale themselves."*
 
-• Founder & CEO at Auscera Tech Ltd — Pioneering autonomous agent engines, distributed workflow fabrics, and intelligent systems.
-• Creator of Agent OS & BWA Framework — Declarative memory graphs, self-healing tool routing, and reactive multi-agent execution loops.
-• High-Scale Systems — Low-latency native utilities (Tauri/Rust), quantitative trading engines, and full-stack cloud ecosystems.
-• Philosophy: "Don't just write code — architect autonomous systems that operate, heal, and scale themselves."
-
-Core Focus: Autonomous Agents • Distributed Systems • Full-Stack Web & Mobile • WebGL / 3D Graphics • FinTech
-```
-
-   </td>
-  </tr>
-</table>
+**Core Disciplines**: Autonomous Agent Systems • Distributed Systems Architecture • Full-Stack Web & Mobile • WebGL / 3D Graphics • Quantitative FinTech
 
 ---
 
