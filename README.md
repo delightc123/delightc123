@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- ==================== HERO: GARGI-STYLE 3D ANIMATED ROLL-UP BANNER ==================== -->
-  <img src="assets/header-gargi.svg" alt="Delight Chukwubuihem - 3D Animated Roll-Up Header" width="100%">
+  <!-- ==================== HERO: ISOLATED 3D ANIMATED ROLL-UP PORTRAIT ==================== -->
+  <img src="assets/header-portrait.svg" alt="Delight Chukwubuihem - 3D Animated Roll-Up Portrait" width="280">
 
   <!-- Dynamic Typing Subheader -->
   <p align="center">
