@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- ==================== HERO: CYBERNETIC SCANNER PORTRAIT ==================== -->
-  <img src="assets/header-scanner.v7.svg" alt="Delight Chukwubuihem - Cybernetic Scanner" width="340">
+  <!-- ==================== HERO: CRYPTOGRAPHIC DECRYPT / ENCRYPT HERO ==================== -->
+  <img src="assets/header-scanner.v8.svg" alt="Delight Chukwubuihem - Cryptographic Decrypt Hero" width="340">
 
   <!-- Dynamic Typing Subheader -->
   <p align="center">
