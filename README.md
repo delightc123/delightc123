@@ -95,7 +95,7 @@ I work at the convergence of systems engineering, autonomous agent architectures
 
 ---
 
-### 🚀 `projects --flagships`
+### Flagship Projects
 
 <div align="center">
 
@@ -127,7 +127,7 @@ I work at the convergence of systems engineering, autonomous agent architectures
 
 ---
 
-### 🎮 `github.contributions --snake`
+### Contribution Graph
 
 <div align="center">
   <picture>
@@ -139,7 +139,7 @@ I work at the convergence of systems engineering, autonomous agent architectures
 
 ---
 
-### 📡 `connect --handshake`
+### Connect
 
 <div align="center">
 
