@@ -6,7 +6,7 @@
   <!-- Dynamic Typing Subheader -->
   <p align="center">
     <a href="https://github.com/delightc123">
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1000&color=4ADE80&center=true&vCenter=true&width=720&lines=Chief+Systems+Architect+%26+Founder+%40Auscera;Architecting+Autonomous+Agent+Operating+Systems;Full-Stack+Engineering+%E2%80%A2+WebGL%2F3D+%E2%80%A2+Distributed+Systems;Building+Systems+That+Operate+Themselves" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1000&color=CBD5E1&center=true&vCenter=true&width=720&lines=Delight+Chukwubuihem;Creative+Design+and+Systems+Engineer;Founder+and+CEO+of+Auscera;Building+Systems+That+Operate+Themselves" alt="Typing SVG" />
     </a>
   </p>
 
@@ -36,16 +36,18 @@
 
 ---
 
-### ⚡ `whoami`
+### Who I Am
 
-I am a **Founder**, **Chief Systems Architect**, and **Agentic Engineer** dedicated to engineering autonomous software systems, resilient distributed backends, and low-latency native interfaces.
+I am Delight Chukwubuihem, a Creative Design and Systems Engineer, and the Founder and CEO of Auscera.
 
-- 🧬 **Founder & CEO at Auscera Tech Ltd** — Leading research and architecture for autonomous agent engines, distributed workflow fabrics, and intelligent systems.
-- 🤖 **Architect of Agent OS & BWA Framework** — Designing declarative memory graphs, self-healing tool routing, and reactive multi-agent execution loops that empower software to operate autonomously.
-- ⚡ **High-Scale Systems & Performance** — Building low-latency native desktop utilities (Tauri / Rust), quantitative trading telemetry systems, and resilient cloud architectures.
-- 🌐 **Engineering Philosophy**: *"Don't just write code — architect autonomous systems that operate, heal, and scale themselves."*
+I work at the convergence of systems engineering, autonomous agent architectures, and intentional product design. My focus is on creating self-operating software, resilient backend fabrics, and high-performance native desktop tools.
 
-**Core Disciplines**: Autonomous Agent Systems • Distributed Systems Architecture • Full-Stack Web & Mobile • WebGL / 3D Graphics • Quantitative FinTech
+* **Auscera**: Leading our technology studio focused on autonomous agent operating environments, distributed workflows, and intelligent software fabrics.
+* **Agent OS and BWA Architecture**: Designing autonomous agent systems featuring declarative memory, dynamic tool routing, and self-healing execution loops.
+* **Systems and Native Platforms**: Building low-latency native desktop applications with Tauri and Rust, real-time trading engines, and modern full-stack web applications.
+* **Engineering Philosophy**: "Don't just write code, architect autonomous systems that operate, heal, and scale themselves."
+
+**Focus Areas**: Autonomous Agent Systems, Distributed Systems, Full-Stack Web and Mobile, WebGL and 3D, Quantitative FinTech
 
 ---
 
