@@ -1,12 +1,12 @@
 <div align="center">
 
   <!-- ==================== HERO: CYBERNETIC SCANNER PORTRAIT ==================== -->
-  <img src="assets/header-scanner.v6.svg" alt="Delight Chukwubuihem - Cybernetic Scanner" width="340">
+  <img src="assets/header-scanner.v7.svg" alt="Delight Chukwubuihem - Cybernetic Scanner" width="340">
 
   <!-- Dynamic Typing Subheader -->
   <p align="center">
     <a href="https://github.com/delightc123">
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2800&pause=1000&color=CBD5E1&center=true&vCenter=true&width=720&lines=Delight+Chukwubuihem;Creative+Design+and+Systems+Engineer;Founder+and+CEO+of+Auscera;Building+Systems+That+Operate+Themselves" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=4000&pause=1200&color=CBD5E1&center=true&vCenter=true&width=720&lines=Delight+Chukwubuihem;Creative+Design+and+Systems+Engineer;Founder+and+CEO+of+Auscera;Building+Systems+That+Operate+Themselves" alt="Typing SVG" />
     </a>
   </p>
 
