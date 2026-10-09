@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- ==================== HERO: CRYPTOGRAPHIC DECRYPT / ENCRYPT HERO ==================== -->
-  <img src="assets/header-scanner.v5.svg" alt="Delight Chukwubuihem - Cryptographic Decrypt Hero" width="340">
+  <!-- ==================== HERO: CYBERNETIC SCANNER PORTRAIT ==================== -->
+  <img src="assets/header-scanner.v6.svg" alt="Delight Chukwubuihem - Cybernetic Scanner" width="340">
 
   <!-- Dynamic Typing Subheader -->
   <p align="center">
@@ -115,35 +115,7 @@ I work at the convergence of systems engineering, autonomous agent architectures
 
 ---
 
-### 📈 `github.telemetry --metrics`
-
-<div align="center">
-
-  <!-- Streak Stats -->
-  <a href="https://github.com/delightc123">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=delightc123&theme=tokyonight&background=090d16&border=1e293b&stroke=4ade80&ring=38bdf8&fire=f59e0b&currStreakNum=f8fafc&sideNums=94a3b8&currStreakLabel=4ade80&sideLabels=64748b&dates=64748b" alt="Delight GitHub Streak Stats" width="49%" />
-  </a>
-  <!-- Core Stats -->
-  <a href="https://github.com/delightc123">
-    <img src="https://github-readme-stats.vercel.app/api?username=delightc123&show_icons=true&theme=tokyonight&bg_color=090d16&border_color=1e293b&title_color=4ade80&text_color=94a3b8&icon_color=38bdf8&rank_icon=github" alt="Delight GitHub Stats" width="49%" />
-  </a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-  <!-- Top Languages -->
-  <a href="https://github.com/delightc123">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=delightc123&layout=compact&theme=tokyonight&bg_color=090d16&border_color=1e293b&title_color=4ade80&text_color=94a3b8" alt="Top Languages" width="60%" />
-  </a>
-
-</div>
-
----
-
-### 🧊 `github.activity --3d-isometric-calendar`
+### Activity & Contribution Timeline
 
 <div align="center">
   <picture>
