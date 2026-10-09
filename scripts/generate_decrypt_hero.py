@@ -5,6 +5,7 @@ generate_decrypt_hero.py - Generates Cryptographic Decrypt / Encrypt Fragment He
 - Decrypts into the pristine real portrait of Delight.
 - Re-encrypts and fragments back into the Titanium Silver / Liquid Metal ASCII dot matrix.
 - Clean wipe: Zero leftover ASCII particles when decrypted.
+- Optical Camera Autofocus Lens: Corner focus reticles pull in and zoom outward, snapping into target lock during ASCII encryption, and smoothly settling during decryption.
 """
 
 import base64
@@ -16,15 +17,14 @@ import numpy as np
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 PORTRAIT_SRC = BASE_DIR / "assets" / "source" / "portrait.jpg"
-OUT_V4 = BASE_DIR / "assets" / "header-scanner.v4.svg"
+OUT_V5 = BASE_DIR / "assets" / "header-scanner.v5.svg"
 OUT_LEGACY = BASE_DIR / "assets" / "header-portrait.svg"
 
 def make_decrypt_hero():
     size = 420
     im = Image.open(PORTRAIT_SRC).convert("RGB")
     
-    # Crop to capture full head + upper chest and red studded jacket
-    # Image is 1280x1280
+    # Crop to capture full head + upper chest and red studded jacket (1280x1280 source)
     crop = im.crop((100, 40, 1180, 1120)) # 1080x1080
     resized = crop.resize((size, size), Image.Resampling.LANCZOS)
     w, h = resized.size
@@ -89,31 +89,18 @@ def make_decrypt_hero():
     dots_content = "\n      ".join(matrix_dots)
 
     # ==================== CRYPTOGRAPHIC PUZZLE / FRAGMENT CLIPS ====================
-    # 10x10 = 100 tiles
     cols, rows = 10, 10
     tile_w = size / cols
     tile_h = size / rows
 
-    # Deterministic pseudo-random seed for repeatable, natural-looking cryptographic reveal
     rng = random.Random(2026)
     indices = list(range(cols * rows))
-    
-    # Shuffle for decryption sequence
     decrypt_order = indices.copy()
     rng.shuffle(decrypt_order)
-    
-    # Shuffle for encryption sequence (different pattern)
     encrypt_order = indices.copy()
     rng.shuffle(encrypt_order)
 
     dur = 7.5 # seconds total loop
-
-    # Timeline benchmarks in seconds:
-    # 0.0s - 1.2s: Full ASCII matrix (stable)
-    # 1.2s - 3.4s: Decrypting (fragments unpacking across image)
-    # 3.4s - 4.8s: Full Real Photo (stable, pristine, 0 particles)
-    # 4.8s - 6.8s: Encrypting (fragments re-scrambling back into ASCII)
-    # 6.8s - 7.5s: Full ASCII matrix (stable)
 
     photo_clips = []
     ascii_clips = []
@@ -138,7 +125,6 @@ def make_decrypt_hero():
         t_enc_start = 4.8 + enc_frac * 1.4   # 4.8s to 6.2s
         t_enc_end = t_enc_start + 0.45       # 5.25s to 6.65s
 
-        # Normalized keyTimes:
         kt0 = 0.0
         kt1 = round(t_dec_start / dur, 3)
         kt2 = round(t_dec_end / dur, 3)
@@ -148,7 +134,6 @@ def make_decrypt_hero():
 
         key_times_str = f"{kt0}; {kt1}; {kt2}; {kt3}; {kt4}; {kt5}"
 
-        # Photo tile: starts at 0, expands to full, stays full, collapses to 0, stays 0
         photo_x = f"{tcx:.1f}; {tcx:.1f}; {x0:.1f}; {x0:.1f}; {tcx:.1f}; {tcx:.1f}"
         photo_y = f"{tcy:.1f}; {tcy:.1f}; {y0:.1f}; {y0:.1f}; {tcy:.1f}; {tcy:.1f}"
         photo_w = f"0; 0; {tile_w:.1f}; {tile_w:.1f}; 0; 0"
@@ -164,7 +149,6 @@ def make_decrypt_hero():
         )
         photo_clips.append(photo_rect)
 
-        # ASCII tile: starts at full, collapses to 0, stays 0, expands to full, stays full
         ascii_x = f"{x0:.1f}; {x0:.1f}; {tcx:.1f}; {tcx:.1f}; {x0:.1f}; {x0:.1f}"
         ascii_y = f"{y0:.1f}; {y0:.1f}; {tcy:.1f}; {tcy:.1f}; {y0:.1f}; {y0:.1f}"
         ascii_w = f"{tile_w:.1f}; {tile_w:.1f}; 0; 0; {tile_w:.1f}; {tile_w:.1f}"
@@ -182,6 +166,30 @@ def make_decrypt_hero():
 
     photo_clips_content = "\n      ".join(photo_clips)
     ascii_clips_content = "\n      ".join(ascii_clips)
+
+    # ==================== OPTICAL CAMERA AUTOFOCUS LENS RETICLE ====================
+    # Timeline:
+    # 0.0s - 1.1s: ASCII state -> reticles locked at corners (0,0 offset)
+    # 1.1s - 3.4s: Decrypting -> reticles stay smoothly locked at corners
+    # 3.4s - 4.8s: Real photo -> reticles stay softly locked (opacity 0.45)
+    # 4.8s - 5.3s: Encryption begins -> reticles contract inward (zoom-in pull)
+    # 5.3s - 6.2s: Zoom-out snap! -> reticles expand outward and snap into corner lock
+    # 6.2s - 7.5s: Locked on ASCII matrix (opacity 0.85)
+
+    lens_kt = "0; 0.147; 0.453; 0.640; 0.707; 0.827; 1"
+    
+    # Offsets for each corner (dx, dy):
+    # Top-Left (pulls toward center by +32,+32 then snaps to 0,0)
+    tl_offsets = "0,0; 0,0; 0,0; 0,0; 32,32; 0,0; 0,0"
+    # Top-Right (pulls toward center by -32,+32 then snaps to 0,0)
+    tr_offsets = "0,0; 0,0; 0,0; 0,0; -32,32; 0,0; 0,0"
+    # Bottom-Left (pulls toward center by +32,-32 then snaps to 0,0)
+    bl_offsets = "0,0; 0,0; 0,0; 0,0; 32,-32; 0,0; 0,0"
+    # Bottom-Right (pulls toward center by -32,-32 then snaps to 0,0)
+    br_offsets = "0,0; 0,0; 0,0; 0,0; -32,-32; 0,0; 0,0"
+    
+    # Opacity pulse: subtle during photo, bright focus lock during ASCII snap
+    lens_op = "0.75; 0.75; 0.45; 0.45; 0.95; 0.85; 0.75"
 
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {size} {size}" width="{size}" height="{size}">
   <defs>
@@ -218,16 +226,51 @@ def make_decrypt_hero():
     <image xlink:href="data:image/png;base64,{b64_photo}" x="0" y="0" width="{size}" height="{size}" preserveAspectRatio="xMidYMid meet"/>
   </g>
 
-  <!-- Subtle Cybernetic Targeting Reticles at Corners -->
-  <g opacity="0.6">
-    <path d="M 12 24 L 12 12 L 24 12" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
-    <path d="M {size - 24} 12 L {size - 12} 12 L {size - 12} 24" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
-    <path d="M 12 {size - 24} L 12 {size - 12} L 24 {size - 12}" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
-    <path d="M {size - 24} {size - 12} L {size - 12} {size - 12} L {size - 12} {size - 24}" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+  <!-- LAYER 3: Optical Camera Autofocus Lens Reticles (Snap into position during ASCII encryption) -->
+  <g>
+    <!-- Top-Left Focus Bracket -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="{tl_offsets}" keyTimes="{lens_kt}" dur="{dur}s" repeatCount="indefinite" calcMode="spline" keySplines="0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.16 1 0.3 1; 0.25 0.1 0.25 1"/>
+      <path d="M 14 30 L 14 14 L 30 14" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round">
+        <animate attributeName="opacity" values="{lens_op}" keyTimes="{lens_kt}" dur="{dur}s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Top-Right Focus Bracket -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="{tr_offsets}" keyTimes="{lens_kt}" dur="{dur}s" repeatCount="indefinite" calcMode="spline" keySplines="0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.16 1 0.3 1; 0.25 0.1 0.25 1"/>
+      <path d="M {size - 30} 14 L {size - 14} 14 L {size - 14} 30" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round">
+        <animate attributeName="opacity" values="{lens_op}" keyTimes="{lens_kt}" dur="{dur}s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Bottom-Left Focus Bracket -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="{bl_offsets}" keyTimes="{lens_kt}" dur="{dur}s" repeatCount="indefinite" calcMode="spline" keySplines="0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.16 1 0.3 1; 0.25 0.1 0.25 1"/>
+      <path d="M 14 {size - 30} L 14 {size - 14} L 30 {size - 14}" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round">
+        <animate attributeName="opacity" values="{lens_op}" keyTimes="{lens_kt}" dur="{dur}s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Bottom-Right Focus Bracket -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="{br_offsets}" keyTimes="{lens_kt}" dur="{dur}s" repeatCount="indefinite" calcMode="spline" keySplines="0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0.16 1 0.3 1; 0.25 0.1 0.25 1"/>
+      <path d="M {size - 30} {size - 14} L {size - 14} {size - 14} L {size - 14} {size - 30}" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round">
+        <animate attributeName="opacity" values="{lens_op}" keyTimes="{lens_kt}" dur="{dur}s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Subtle Optical Autofocus Range Ticks -->
+    <g opacity="0.4">
+      <line x1="{cx - 12}" y1="14" x2="{cx + 12}" y2="14" stroke="#94a3b8" stroke-width="1"/>
+      <line x1="{cx - 12}" y1="{size - 14}" x2="{cx + 12}" y2="{size - 14}" stroke="#94a3b8" stroke-width="1"/>
+      <line x1="14" y1="{cy - 12}" x2="14" y2="{cy + 12}" stroke="#94a3b8" stroke-width="1"/>
+      <line x1="{size - 14}" y1="{cy - 12}" x2="{size - 14}" y2="{cy + 12}" stroke="#94a3b8" stroke-width="1"/>
+    </g>
   </g>
 </svg>"""
 
-    for p in [OUT_V4, OUT_LEGACY]:
+    for p in [OUT_V5, OUT_LEGACY]:
         with open(p, "w", encoding="utf-8") as f:
             f.write(svg)
         print(f"Generated {p.name} ({len(svg) / 1024:.1f} KB)")

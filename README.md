@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- ==================== HERO: CRYPTOGRAPHIC DECRYPT / ENCRYPT HERO ==================== -->
-  <img src="assets/header-scanner.v4.svg" alt="Delight Chukwubuihem - Cryptographic Decrypt Hero" width="340">
+  <img src="assets/header-scanner.v5.svg" alt="Delight Chukwubuihem - Cryptographic Decrypt Hero" width="340">
 
   <!-- Dynamic Typing Subheader -->
   <p align="center">
@@ -51,7 +51,7 @@ I work at the convergence of systems engineering, autonomous agent architectures
 
 ---
 
-### 🛠️ `~/ toolbox`
+### Technical Stack & Toolbox
 
 <div align="center">
 
@@ -87,10 +87,10 @@ I work at the convergence of systems engineering, autonomous agent architectures
 
 ---
 
-### 🌐 `telemetry --radar-competency`
+### Domain Competency
 
 <div align="center">
-  <img src="assets/radar-chart.svg" width="720" alt="Delight Chukwubuihem Domain Competency Radar Chart" />
+  <img src="assets/radar-chart.svg" width="500" alt="Delight Chukwubuihem Domain Competency Radar Chart" />
 </div>
 
 ---
@@ -163,14 +163,6 @@ I work at the convergence of systems engineering, autonomous agent architectures
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/delightc123/delightc123/output/github-contribution-grid-snake.svg">
     <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/delightc123/delightc123/output/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
-</div>
-
----
-
-### 🏆 `trophies --gamified-achievements`
-
-<div align="center">
-  <img src="assets/trophies.svg" width="100%" alt="Delight GitHub Achievement Trophies Matrix" />
 </div>
 
 ---
