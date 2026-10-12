@@ -101,15 +101,16 @@ I work at the convergence of systems engineering, autonomous agent architectures
 
 | Project | Domain / Type | Architecture &amp; Stack | GitHub / Access |
 | :--- | :--- | :--- | :--- |
-| **Agent OS** | Autonomous Agent OS | Multi-agent execution loop, self-healing memory system, dynamic tool discovery (`TypeScript`, `Node.js`, `Python`) | [Repository](https://github.com/delightc123/Agents-OS) |
-| **BWA Framework** | AI Architecture | Declarative system prompts, agent governance rules, and memory lifecycle protocols | [Repository](https://github.com/delightc123/Agents-OS) |
-| **Nexa** | Full-Stack Platform | High-concurrency modern web &amp; mobile application (`Next.js 15`, `React 19`, `TailwindCSS`, `PostgreSQL`) | [Repository](https://github.com/delightc123/nexa) |
-| **Scaleo Capital** | Quantitative FinTech | Algorithmic trading analytics, real-time risk intelligence, and telemetry (`TypeScript`, `FastAPI`, `WebSockets`) | [Repository](https://github.com/delightc123/Scaleo-App) |
-| **CleoNotch** | Native Desktop Utility | Ultra-lightweight macOS-style Dynamic Island notch companion for Windows (`Tauri 2`, `Rust`, `React`) | [Repository](https://github.com/delightc123/Cleonotch) |
-| **CleoClip** | Systems Clipboard | Cross-platform clipboard synchronization utility with end-to-end encryption (`Tauri`, `Rust`, `TypeScript`) | [Repository](https://github.com/delightc123/cleoclip) |
-| **COD** | Mission Control | Command On Demand: real-time execution orchestrator and live distributed task monitor | [Repository](https://github.com/delightc123/COD) |
-| **Rivera** | Automation Engine | Enterprise workflow fabric, event-driven pipelines, and scheduled telemetry collectors | [Repository](https://github.com/delightc123/Rivera) |
-| **Auscera** | Venture / Lab | Innovation laboratory &amp; parent technology enterprise for autonomous systems | [Auscera](https://github.com/delightc123) |
+| **Agent OS** | Autonomous Agent OS | Universal multi-agent orchestration, progressive disclosure memory, and dynamic skill routing (`Python`, `TypeScript`, `Shell`) | [Repository](https://github.com/delightc123/AgentOS) |
+| **PPA Framework** | Agentic Plugin Architecture | Standardized plugin specification, sandboxed runtime lifecycle, and tool integration contracts (`TypeScript`, `Python`, `JSON Schema`) | [Repository](https://github.com/delightc123/PPA-Framework) |
+| **Nexa** | Full-Stack Campus Commerce | AI-powered student marketplace and social discovery monorepo (`Next.js`, `React Native / Expo`, `TypeScript`, `Supabase`, `Turborepo`) | [Repository](https://github.com/delightc123/Nexa) |
+| **Rivera** | Multi-Platform Finance OS | Offline-first 2-tap mobile expense capture &amp; macro balance-sheet ledger (`Next.js 15`, `Expo`, `Electron`, `Convex`, `Effect-TS`, `SQLite`) | [Repository](https://github.com/delightc123/rivera) |
+| **Scaleo** | Quantitative FinTech | Proprietary capital allocation, dual-layer risk control, and investor performance monorepo (`Next.js`, `TypeScript`, `Supabase`, `Telegram TMA`) | [Repository](https://github.com/delightc123/scaleo.ai) |
+| **Gscrape** | Lead Generation &amp; CLI Engine | High-throughput stealth Google Maps B2B lead harvester with anti-detect browser spoofing (`Python`, `Camoufox`, `Rich CLI`, `SQLite`) | [Repository](https://github.com/delightc123/gscrape) |
+| **HeyCleo (CleoNotch)** | Native Desktop Companion | On-screen Dynamic Island AI agent monitor, one-click approvals, and BYOK chat (`Swift 6 / SwiftUI`, `Tauri 2`, `Rust`, `TypeScript`) | [Repository](https://github.com/delightc123/CleoNotch) |
+| **CleoClip** | AI Video Desktop App | Local-first open-source video clipper turning long-form videos into viral captioned shorts (`Electron-Vite`, `React 18`, `FFmpeg`, `Whisper`) | [Repository](https://github.com/delightc123/CleoClip) |
+| **Cleo** | Personal AI &amp; Avatar Engine | Local-first personal AI super-app and procedural 3D/WebGL interactive character engine (`Rust`, `Tauri 2`, `Python`, `React 19`, `WebGL`) | [Repository](https://github.com/delightc123/Jarvis-by-Delight) |
+| **BWA Framework** | AI Engineering Methodology | Building With AI: Agent, Memory, Design Token Lockdown, and Spec system architectures (`AGENTS.md`, `.rules`, `.design`, `.memory`) | [Repository](https://github.com/delightc123/BWA-Framework) |
 
 </div>
 
