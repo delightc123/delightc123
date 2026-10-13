@@ -103,14 +103,14 @@ I work at the convergence of systems engineering, autonomous agent architectures
 | :--- | :--- | :--- | :--- |
 | **Agent OS** | Autonomous Agent OS | Universal multi-agent orchestration, progressive disclosure memory, and dynamic skill routing (`Python`, `TypeScript`, `Shell`) | `Closed Source` |
 | **PPA Framework** | Agentic Plugin Architecture | Standardized plugin specification, sandboxed runtime lifecycle, and tool integration contracts (`TypeScript`, `Python`, `JSON Schema`) | [Repository](https://github.com/delightc123/PPA-Framework) |
+| **BWA Framework** | AI Engineering Methodology | Building With AI: Agent, Memory, Design Token Lockdown, and Spec system architectures (`AGENTS.md`, `.rules`, `.design`, `.memory`) | [Repository](https://github.com/delightc123/BWA-Framework) |
 | **Nexa** | Full-Stack Campus Commerce | AI-powered student marketplace and social discovery monorepo (`Next.js`, `React Native / Expo`, `TypeScript`, `Supabase`, `Turborepo`) | [nexasouk.com](https://www.nexasouk.com/) |
-| **Rivera** | Multi-Platform Finance OS | Offline-first 2-tap mobile expense capture &amp; macro balance-sheet ledger (`Next.js 15`, `Expo`, `Electron`, `Convex`, `Effect-TS`, `SQLite`) | `Closed Source` |
 | **Scaleo** | Quantitative FinTech | Proprietary capital allocation, dual-layer risk control, and investor performance monorepo (`Next.js`, `TypeScript`, `Supabase`, `Telegram TMA`) | [scaleocapital.com](http://scaleocapital.com/) |
 | **Gscrape** | Lead Generation &amp; CLI Engine | High-throughput stealth Google Maps B2B lead harvester with anti-detect browser spoofing (`Python`, `Camoufox`, `Rich CLI`, `SQLite`) | `Closed Source` |
+| **CleoClip** | AI Video Desktop App | Local-first open-source video clipper turning long-form videos into viral captioned shorts at pennies per video — local transcoding with pay-per-use LLM instead of OpusClip-style SaaS pricing (`Electron-Vite`, `React 18`, `FFmpeg`, `Whisper`, `OpenRouter`) | [Repository](https://github.com/delightc123/CleoClip) |
 | **HeyCleo (CleoNotch)** | Native Desktop Companion | On-screen Dynamic Island AI agent monitor, one-click approvals, and BYOK chat (`Swift 6 / SwiftUI`, `Tauri 2`, `Rust`, `TypeScript`) | [Repository](https://github.com/delightc123/CleoNotch) |
-| **CleoClip** | AI Video Desktop App | Local-first open-source video clipper turning long-form videos into viral captioned shorts (`Electron-Vite`, `React 18`, `FFmpeg`, `Whisper`) | [Repository](https://github.com/delightc123/CleoClip) |
-| **Cleo** | Personal AI &amp; Avatar Engine | Local-first personal AI super-app and procedural 3D/WebGL interactive character engine (`Rust`, `Tauri 2`, `Python`, `React 19`, `WebGL`) | [Repository](https://github.com/delightc123/Jarvis-by-Delight) |
-| **BWA Framework** | AI Engineering Methodology | Building With AI: Agent, Memory, Design Token Lockdown, and Spec system architectures (`AGENTS.md`, `.rules`, `.design`, `.memory`) | [Repository](https://github.com/delightc123/BWA-Framework) |
+| **Rivera** | Multi-Platform Finance OS | Offline-first 2-tap mobile expense capture &amp; macro balance-sheet ledger (`Next.js 15`, `Expo`, `Electron`, `Convex`, `Effect-TS`, `SQLite`) | `Closed Source` |
+| **Cleo 3D Avatars** | Procedural Avatar Engine | Browser-based procedural avatar studio fusing SVG authoring, morphing vector states, and agent-state 3D robot heads (`TypeScript`, `React`, `SVG`, `Canvas`, `WebGL`) | `Closed Source` |
 
 </div>
 
