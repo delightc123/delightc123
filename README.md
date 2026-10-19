@@ -109,8 +109,8 @@ I work at the convergence of systems engineering, autonomous agent architectures
 | **Gscrape** | Lead Generation &amp; CLI Engine | High-throughput stealth Google Maps B2B lead harvester with anti-detect browser spoofing (`Python`, `Camoufox`, `Rich CLI`, `SQLite`) | `Closed Source` |
 | **CleoClip** | AI Video Desktop App | Local-first open-source video clipper turning long-form videos into viral captioned shorts at pennies per video — local transcoding with pay-per-use LLM instead of OpusClip-style SaaS pricing (`Electron-Vite`, `React 18`, `FFmpeg`, `Whisper`, `OpenRouter`) | [Repository](https://github.com/delightc123/CleoClip) |
 | [**HeyCleo (CleoNotch)**](https://heycleo.vercel.app) | Native Desktop Companion | On-screen Dynamic Island AI agent monitor, one-click approvals, and BYOK chat (`Swift 6 / SwiftUI`, `Tauri 2`, `Rust`, `TypeScript`) | [Repository](https://github.com/delightc123/CleoNotch) |
-| [**Rivera**](https://rivera-web-delta.vercel.app) | Multi-Platform Finance OS | Offline-first 2-tap mobile expense capture &amp; macro balance-sheet ledger (`Next.js 15`, `Expo`, `Electron`, `Convex`, `Effect-TS`, `SQLite`) | [Live App](https://rivera-web-delta.vercel.app) |
-| [**Cleo 3D Avatars**](https://cleo-avatar-studio.vercel.app) | Procedural Avatar Engine | Browser-based procedural avatar studio fusing SVG authoring, morphing vector states, and agent-state 3D robot heads (`TypeScript`, `React`, `SVG`, `Canvas`, `WebGL`) | [Live Studio](https://cleo-avatar-studio.vercel.app) |
+| [**Rivera**](https://rivera-web-delta.vercel.app) | Multi-Platform Finance OS | Offline-first 2-tap mobile expense capture &amp; macro balance-sheet ledger (`Next.js 15`, `Expo`, `Electron`, `Convex`, `Effect-TS`, `SQLite`) | `Closed Source` |
+| [**Cleo 3D Avatars**](https://cleo-avatar-studio.vercel.app) | Procedural Avatar Engine | Browser-based procedural avatar studio fusing SVG authoring, morphing vector states, and agent-state 3D robot heads (`TypeScript`, `React`, `SVG`, `Canvas`, `WebGL`) | `Closed Source` |
 
 </div>
 
